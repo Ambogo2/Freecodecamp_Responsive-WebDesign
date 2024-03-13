@@ -1,0 +1,40 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1614267862674-c91b17cfae12?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEyfHx8ZW58MHx8fHx8");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1,
+p {
+  text-align: center;
+}
+p {
+  line-height: 24px;
+}
+.container {
+  max-width: 600px;
+  background-color: 2c3d32;
+  font-size: 18px;
+  color: white;
+  margin: 60px auto;
+  padding: 30px;
+  border-radius: 20px;
+}
+form {
+  text-align: left;
+  border: 2px solid black;
+  padding: 20px;
+}
+input {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+.input-element {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+input[type="checkbox"] {
+  width: 30px;
+}

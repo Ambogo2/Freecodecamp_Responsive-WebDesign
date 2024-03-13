@@ -1,0 +1,97 @@
+ <link rel="stylesheet" href="styles.css">
+<h1 id="title"> Product Satisfaction Survey</h1>
+<p id="description">Thank you for choosing Kente Naturals, we would like to get your feedback about our Products.</p>
+<div class ="container">
+  <form id="survey-form">
+    <label for="name" id="name-label">Enter your first Name:</label>
+    <input id="name" type= "text" placeholder="name" required/>
+    <div class="input-element"></div>
+    <label for="name">Enter your last name:</label>
+    <input id="name" type= "text" placeholder ="name" required/>
+    <div class="input-element"></div>
+<label for="number" >Enter your phone number:</label>
+<input id="number" type="number" min="1" max="10" placeholder ="number"required />
+    <div class="input-element"></div>
+        <label for="email" id="email-label">Enter your Email:</label>
+    <input id="email" type= "email" placeholder ="email"  required/>
+      
+
+    <div class="input-element"></div>
+    <label for="email">Please select your Gender</label><br/>
+      <input class="gender" type= "checkbox"  required name="male" value="male"/>Male<br/>
+    <input class="gender" type= "checkbox"  required name="female" value="female"/>Female<br/>
+    <input class="Gender" type= "checkbox"  required name="prefer not to say" value="prefer not to say"/>Prefer not to say<br/>
+      <input class="Gender" type= "checkbox"  required name="others" value="others"/>Others<br/>
+    <label for="others">Others please specify here</label>
+    <input class ="Gender" type="text" id ="others"/>
+ 
+    <div class="input-element"></div>
+    <label for="email" id=number-label >What is your age group?</label>
+    <div>
+    <label><input type= "radio"  name ="age" value ="teen"/>15 - 19</label>
+    </div>
+    <div>
+          <div>
+    <label><input type= "radio"  name ="age" value ="adult"/>20 - 29</label>
+    </div>
+    <div>
+          <div>
+    <label><input type= "radio"  name ="age" value ="mature"/>30 - 40</label>
+    </div>
+    <div>
+    <div class="input-element"></div>
+    <label for="email" >How long have you been using Kente Naturals products?</label>
+    <div>
+    <label><input type= "radio"  name ="age" value ="one"/>once</label>
+    </div>
+    <div>
+          <div>
+    <label><input type= "radio"  name ="age" value ="two"/>twice</label>
+    </div>
+    <div>
+    <div class="input-element"></div>
+    <label for="email">What Product(s) do you use the most?</label><br/>
+    <input class="products" type= "checkbox"  required name="Shampoo" value="Shampoo"/>Shampoo<br/>
+    <input class="products" type= "checkbox"  required name="Conditioners" value="Conditioners"/>Conditioners<br/>
+    <input class="products" type= "checkbox"  required name="Shea" value="Shea"/>Shea-butter<br/>
+      <input class="products" type= "checkbox"  required name="oils" value="oils"/>Oils<br/>
+        <input class="products" type= "checkbox"  required name="Treatments" value="Treatments"/>Treatments<br/>
+      <div class="input-element"></div>
+    <label for="dropdown" id ="select-label">How frequently do you use the products?</label>
+    <section name ="dropdown">
+          <select id="dropdown" name="dropdown">
+          <option value="option1">Daily</option>
+          <option value="option2">Weekly</option>
+          <option value="option3">Monthly</option>
+        </select>
+
+    </section>
+      <div class="input-element"></div>
+    <label for="rating">Rate our products(*5 being the best)</label>
+    <input id="rating" type= "range" min ="1" max ="5", step ="1", value ="3" />
+    <div class="input-element"></div>
+    <label >Would you reccomend our products to others?</label>
+    <div>
+    <label><input type= "radio"  name ="name" value ="yes"/>Yes</label>
+    </div>
+    <div>
+    <label><input type= "radio"  name ="name" value="No"/>No</label>
+    </div>
+
+        <div class="input-element"></div>
+    <label >Which of these products should we add to our range?</label>
+    <div>
+    <label><input type= "checkbox"  value ="box" required/>Moringa</label>
+    </div>
+    <div>
+    <label><input type= "checkbox"  value ="box" required/>Olive oil</label>
+    </div>
+    <div>
+      <label>Additional Comments</label>
+      <textarea type ="text"></textarea>
+    </div>
+
+    <div class="input-element"></div>
+    <input type="submit" id="submit" value="submit">
+  </form>
+</div>
